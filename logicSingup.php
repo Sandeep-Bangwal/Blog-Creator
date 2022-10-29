@@ -2,7 +2,7 @@
 if($_SERVER["REQUEST_METHOD"]=="POST"){
     include 'dbconn.php';
     $email = $_POST['email_id'];
-    $pss = $_POST['password'];
+    $password = $_POST['password'];
     $cpss = $_POST['cpassword'];
     //if user already exists
     $existsql= "SELECT * FROM `users` WHERE email_id = '$email'";
@@ -16,7 +16,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
     }
     // if all correct
     if(($pss == $cpss) && $numRows==false){
-        $sql = "INSERT INTO `users` ( `email_id`, `password`, `user_time`) VALUES ('$email', '$pss', current_timestamp())";
+        $sql = "INSERT INTO `users` ( `email_id`, `password`, `user_time`) VALUES ('$email', '$password')";
         $result = mysqli_query($conn, $sql);
         if ($result){
             $showAlert = true;
