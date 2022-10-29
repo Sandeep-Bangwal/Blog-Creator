@@ -52,10 +52,6 @@ if($insert== 'POST'){
     //insert intodb
 $comment_desc = $_POST['comment_desc'];
 
-
-$comment_desc = str_replace("<", "&lt;", $comment_desc);
-$comment_desc = str_replace(">", "&gt;", $comment_desc);
-
 $sql = "INSERT INTO `comment`( `comment_desc`, `post_id`) VALUES ( '$comment_desc', '$id1')";
 $result = mysqli_query($conn, $sql);
 
