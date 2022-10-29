@@ -10,23 +10,23 @@ body{
 
 .blog-groups{
     margin: 0 auto;
-    width: 780px;
-    padding: 10px;
+    width: 782px;
+    padding: 11px;
     height: auto;
 }
 .blog-groups li{
     position: relative;
     list-style: none;
     background: #fff;
-    border-radius: 6px;
-    box-shadow: 0 3px 4px 0 #0001;
+    border-radius: 8px;
+    box-shadow: 0 4px 5px 0 #0001;
     overflow: hidden;
-    margin-bottom: 30px;
+    margin-bottom: 31px;
     transition: all 0.3s;
 }
 .blog-groups li:hover{
     transform: scale(1.04);
-    box-shadow: 0 4px 14px 0 #0005;
+    box-shadow: 0 5px 15px 0 #0005;
 }
 .blog-groups .card{
     overflow: hidden;
@@ -38,21 +38,21 @@ body{
     margin-right: 20px;
 }
 .blog-groups .img-part .image{
-    width: 280px;
-    height: 220px;
+    width: 281px;
+    height: 222px;
     display: block;
     background-size: cover;
     background-position: center;
 }
 .blog-groups .main-content{
     position: relative;
-    padding: 15px;
+    padding: 16px;
     display: block;
-    height: 220px;
+    height: 221px;
 }
 .blog-groups .main-content .head{
     display: flex;
-    margin-bottom: 10px;
+    margin-bottom: 11px;
     justify-content: space-between;
 }
 .blog-groups .main-content .head .catogry{
