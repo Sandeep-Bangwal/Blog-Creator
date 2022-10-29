@@ -1,0 +1,48 @@
+img {
+    height: 22px;
+  }
+
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+}
+
+.content div {
+    margin: 5px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.btns a{
+    text-decoration: none;
+    color: white;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+ h2 span{
+    font-size: 25px;
+    color: white;
+}
+
+.btn{
+    position: absolute;
+    left: 41%;
+}
+
+.btn{
+    padding: 12px 25px;
+    color: white;
+    font-size: 16px;
+    background-color:#ff8f00;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}

@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #eee;
+    font-family: sans-serif;
+}
+
+.blog-groups{
+    margin: 0 auto;
+    width: 780px;
+    padding: 10px;
+    height: auto;
+}
+.blog-groups li{
+    position: relative;
+    list-style: none;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 3px 4px 0 #0001;
+    overflow: hidden;
+    margin-bottom: 30px;
+    transition: all 0.3s;
+}
+.blog-groups li:hover{
+    transform: scale(1.04);
+    box-shadow: 0 4px 14px 0 #0005;
+}
+.blog-groups .card{
+    overflow: hidden;
+    display: block;
+}
+.blog-groups .img-part{
+    float: left;
+    overflow: hidden;
+    margin-right: 20px;
+}
+.blog-groups .img-part .image{
+    width: 280px;
+    height: 220px;
+    display: block;
+    background-size: cover;
+    background-position: center;
+}
+.blog-groups .main-content{
+    position: relative;
+    padding: 15px;
+    display: block;
+    height: 220px;
+}
+.blog-groups .main-content .head{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+.blog-groups .main-content .head .catogry{
+    list-style: none;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #0075ff;
+}
+
+.blog-groups .body .title{
+    height: 60px;
+    overflow: hidden;
+    font-size: 24px;
+}
+.blog-groups .body .desc{
+    height: auto;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+.blog-groups .footer .button{
+    position: absolute;
+    bottom: 20px;right: 25px;
+    background: rgb(250, 173, 30);
+    color: #fff;
+    line-height: 2.2;
+    padding: 0 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    box-shadow: 0 1px 6px 0 #0004;
+    transition: all 0.3s;
+}
+
+.blog-groups .footer .button:hover{
+    box-shadow: 0 3px 8px 0 #0005;
+    background: orange;
+    right: 15px;
+}
+
+.blog-groups .footer .social-media{
+    display: block;
+    font-size: 12px;
+    margin-top: 40px;
+    float: left;
+    width:100px;
+}   
+    .blog-groups .footer .social-media img{
+        width:20%;
+        margin-left:10px;
+    }
+
