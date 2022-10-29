@@ -12,6 +12,11 @@
     <?php
         include 'dbconn.php';
         include 'navbaar.php';
+       // if user see the comment
+        if(isset($_GET['post_id'])){
+            $main_id = $_GET['post_id'];
+            $Upadte_id =  mysqli_query($conn, "UPDATE `comment` SET status= 1 WHERE post_id =  $main_id");
+        }
 
     ?>
 <!-- display blog -->
