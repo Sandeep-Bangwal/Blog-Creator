@@ -21,9 +21,9 @@
        </div>
     </header>
     <div class="container">
-        <h2>Publish your  passions, your way <br> <span>Create a unique and beautiful blog easily.</span></h2>
+        <h2>Publish your  passions, your way <br> <span>Create a beautiful blogs easily.</span></h2>
     </div>
-    <a  href="login.php" class="btn">CREATE YOUR BLOG</a>
+    <a  href="login.php" class="btn">CREATE BLOG</a>
 
    
 </body>
