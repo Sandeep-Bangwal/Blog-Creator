@@ -43,5 +43,5 @@ and then click on the import tab
 
 **Step 7.** Open browser and go URL 
 ```bash
-  http://localhost/Blog-Creator/home.php
+  http://localhost/Blog-Creator/index.php
 ```
