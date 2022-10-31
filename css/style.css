@@ -10,23 +10,25 @@ body{
 
 .blog-groups{
     margin: 0 auto;
-    width: 782px;
-    padding: 11px;
+    width: 784px;
+    padding: 12px;
     height: auto;
 }
 .blog-groups li{
     position: relative;
     list-style: none;
-    background: #fff;
-    border-radius: 8px;
+    
     box-shadow: 0 4px 5px 0 #0001;
     overflow: hidden;
     margin-bottom: 31px;
-    transition: all 0.3s;
+    background: #fff;
+    border-radius: 9px;
+    
+   
 }
 .blog-groups li:hover{
-    transform: scale(1.04);
-    box-shadow: 0 5px 15px 0 #0005;
+    transform: scale(1.05);
+    box-shadow: 0 6px 16px 0 #0005;
 }
 .blog-groups .card{
     overflow: hidden;
@@ -35,7 +37,7 @@ body{
 .blog-groups .img-part{
     float: left;
     overflow: hidden;
-    margin-right: 20px;
+    margin-right: 21px;
 }
 .blog-groups .img-part .image{
     width: 281px;
@@ -55,6 +57,14 @@ body{
     margin-bottom: 11px;
     justify-content: space-between;
 }
+
+
+.blog-groups .body .title{
+    height: 60px;
+    overflow: hidden;
+    font-size: 24px;
+}
+
 .blog-groups .main-content .head .catogry{
     list-style: none;
     text-decoration: none;
@@ -63,11 +73,6 @@ body{
     color: #0075ff;
 }
 
-.blog-groups .body .title{
-    height: 60px;
-    overflow: hidden;
-    font-size: 24px;
-}
 .blog-groups .body .desc{
     height: auto;
     margin-bottom: 10px;
@@ -75,10 +80,11 @@ body{
 }
 .blog-groups .footer .button{
     position: absolute;
-    bottom: 20px;right: 25px;
+    bottom: 21px;
+    right: 26px;
     background: rgb(250, 173, 30);
     color: #fff;
-    line-height: 2.2;
+    line-height: 2.1;
     padding: 0 20px;
     border-radius: 50px;
     text-decoration: none;
@@ -89,18 +95,18 @@ body{
 .blog-groups .footer .button:hover{
     box-shadow: 0 3px 8px 0 #0005;
     background: orange;
-    right: 15px;
+    right: 16px;
 }
 
 .blog-groups .footer .social-media{
     display: block;
-    font-size: 12px;
-    margin-top: 40px;
+    font-size: 13px;
+    margin-top: 41px;
     float: left;
     width:100px;
 }   
     .blog-groups .footer .social-media img{
         width:20%;
-        margin-left:10px;
+        margin-left:9px;
     }
 
