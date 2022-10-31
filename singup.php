@@ -11,20 +11,17 @@
         <div class="input_txt">
         <label>Email</label>
         <br>
-          <input type="email" name="email_id"required>
-          
+          <input type="email" name="email_id"required>  
         </div>
         <div class="input_txt">
         <label>Password</label>
         <br>
           <input type="password" name="password"required>
-         
         </div>
         <div class="input_txt">
         <label>Confirm Password</label>
         <br>
           <input type="password" name="cpassword"required>
-          
         </div>
         <input type="submit" value="SingUp">
         <div class="signup_link">
