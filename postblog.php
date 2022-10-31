@@ -6,7 +6,7 @@ if(isset($_POST["submit"])){
    $post_desc =$_POST['post_desc'];
     if($_FILES["image"]["error"] == 4){
       echo
-      "<script> alert('Image Does Not Exist'); </script>"
+      "<script> alert('Image Does Not Exist please add image'); </script>"
       ;
     }
     else{
@@ -14,14 +14,14 @@ if(isset($_POST["submit"])){
       $fileSize = $_FILES["image"]["size"];
       $tmpName = $_FILES["image"]["tmp_name"];
   
-      $validImageExtension = ['jpg', 'jpeg', 'png'];
+      $validImageExtension = ['jpg', 'jpeg', GIF, 'png'];
       $imageExtension = explode('.', $fileName);
       $imageExtension = strtolower(end($imageExtension));
       if ( !in_array($imageExtension, $validImageExtension) ){
         echo
         "
         <script>
-          alert('Invalid Image Extension');
+          alert('Invalid Image Extension chek agin');
         </script>
         ";
       }
@@ -29,7 +29,7 @@ if(isset($_POST["submit"])){
         echo
         "
         <script>
-          alert('Image Size Is Too Large');
+          alert('Image Size Is Too Large agin chek size ');
         </script>
         ";
       }
